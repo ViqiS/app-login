@@ -7,7 +7,7 @@ import axios from 'axios';
 import './App.css';
 
 
-axios.defaults.baseURL = 'https://db-image-dev.fl0.io/'; 
+axios.defaults.baseURL = 'https://db-image-dev.fl0.io'; 
 function App() {
   return (
     <Router>
