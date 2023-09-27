@@ -7,7 +7,7 @@ import axios from 'axios';
 import './App.css';
 
 
-axios.defaults.baseURL = 'http://localhost:3001'; 
+axios.defaults.baseURL = 'https://app-login-b.vercel.app/'; 
 function App() {
   return (
     <Router>
